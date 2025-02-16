@@ -1,0 +1,126 @@
+"C:\Program Files\Java\jdk-22\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.1\lib\idea_rt.jar=56251:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\zain\IdeaProjects\Assignment3\out\production\Assignment3 TEST
+
+
+-------------------------------------------------------------------------------------------
+TEST 1: ARRAYLIST (NON-GENERIC)
+
+A call to songsList.toString() returns:
+Playlist empty, add some music please!
+
+After adding 4 songs to the playlist:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: Coral Crown, artist: Darren Korb, length: 4.14
+Song #3: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #4: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+After removing index 1:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #3: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+
+-------------------------------------------------------------------------------------------
+TEST 2: ARRAYLIST (GENERIC)
+
+A call to songsList.toString() returns:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #3: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+After adding 4 songs to the playlist:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: Coral Crown, artist: Darren Korb, length: 4.14
+Song #3: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #4: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+After removing index 1:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #3: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+
+-------------------------------------------------------------------------------------------
+TEST 3: SINGLE LINKED LIST (NON-GENERIC)
+
+A call to songsList.toString() returns:
+Playlist empty, add some music please!
+
+After adding 4 songs to the playlist:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: Coral Crown, artist: Darren Korb, length: 4.14
+Song #3: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #4: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+After removing index 1:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #3: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+
+-------------------------------------------------------------------------------------------
+TEST 4: SINGLE LINKED LIST (GENERIC)
+
+A call to songsList.toString() returns:
+Playlist empty, add some music please!
+
+After adding 4 songs to the playlist:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: Coral Crown, artist: Darren Korb, length: 4.14
+Song #3: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #4: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+After removing index 1:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #3: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+
+-------------------------------------------------------------------------------------------
+TEST 5: DOUBLE LINKED LIST (NON-GENERIC)
+
+A call to songsList.toString() returns:
+Playlist empty, add some music please!
+
+After adding 4 songs to the playlist:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: Coral Crown, artist: Darren Korb, length: 4.14
+Song #3: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #4: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+After removing index 1:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #3: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+
+-------------------------------------------------------------------------------------------
+TEST 6: DOUBLE LINKED LIST (GENERIC)
+
+A call to songsList.toString() returns:
+Playlist empty, add some music please!
+
+After adding 4 songs to the playlist:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: Coral Crown, artist: Darren Korb, length: 4.14
+Song #3: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #4: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+After removing index 1:
+Song #1: El Pibe De Mi Barrio, artist: Dr. Krapula, length: 2.47
+Song #2: CASANOVE POSSE, artist: ALI, length: 3.17
+Song #3: Coral Crown, artist: Darren Korb, length: 4.14
+
+
+Process finished with exit code 0
